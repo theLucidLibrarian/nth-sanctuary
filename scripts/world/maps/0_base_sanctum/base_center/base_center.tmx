@@ -419,7 +419,8 @@ THE KNIGHT IS TO NO FAULT.</property>
     <property name="actor" value="organik"/>
     <property name="cond" value="Game:getFlag(&quot;unlock_travel&quot;)"/>
     <property name="sprite" value="c"/>
-    <property name="text1" value="* (This one won't budge either.)"/>
+    <property name="text1_1" value="* (It looks like they're in a heated debate...)"/>
+    <property name="text2_1" value="* Progression Locking? What are you on about? I was just simply resting on the walkway!"/>
    </properties>
    <point/>
   </object>
@@ -428,7 +429,8 @@ THE KNIGHT IS TO NO FAULT.</property>
     <property name="actor" value="organik"/>
     <property name="cond" value="Game:getFlag(&quot;unlock_travel&quot;)"/>
     <property name="sprite" value="br"/>
-    <property name="text1" value="* (They don't look like they'll be moving any time soon.)"/>
+    <property name="text1_1" value="* (It looks like they're in a heated debate...)"/>
+    <property name="text2_1" value="* Progression Blocking? What are you on about? The proper term is &quot;Progression Locking&quot;!"/>
    </properties>
    <point/>
   </object>

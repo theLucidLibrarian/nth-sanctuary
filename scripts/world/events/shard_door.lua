@@ -4,7 +4,8 @@ local ShardDoor, super = Class(Event, "shard_door")
 function ShardDoor:init(data)
     super.init(self, data)
     self.properties = data.properties or {}
-    self.display = ShardDoorDisplay(self.properties.req)
+    self.hidden = self.properties.hidden
+    self.display = ShardDoorDisplay(self.properties.req, self.hidden)
     self.display.layer = 10000000
     self:addChild(self.display)
     self.display.x = self.width/2

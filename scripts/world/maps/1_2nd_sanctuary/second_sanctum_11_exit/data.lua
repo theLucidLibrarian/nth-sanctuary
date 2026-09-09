@@ -608,7 +608,7 @@ return {
           visible = true,
           properties = {
             ["actor"] = "susie",
-            ["sprite"] = "sit-couch",
+            ["sprite"] = "sit_couch",
             ["text1"] = "[face:annoyed_down_alt]* Some guy, [wait:5]huh?",
             ["text2"] = "[face:smile]* We totally got out alive because of me."
           }
@@ -627,7 +627,7 @@ return {
           visible = true,
           properties = {
             ["actor"] = "ralsei",
-            ["sprite"] = "sit-couch",
+            ["sprite"] = "sit_couch",
             ["text1"] = "[voice:default]* (He looks deep in thought.)"
           }
         },

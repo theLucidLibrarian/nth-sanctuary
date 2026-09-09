@@ -170,7 +170,7 @@
   <object id="299" name="npc" x="558" y="232">
    <properties>
     <property name="actor" value="susie"/>
-    <property name="sprite" value="sit-couch"/>
+    <property name="sprite" value="sit_couch"/>
     <property name="text1" value="[face:annoyed_down_alt]* Some guy, [wait:5]huh?"/>
     <property name="text2" value="[face:smile]* We totally got out alive because of me."/>
    </properties>
@@ -179,7 +179,7 @@
   <object id="300" name="npc" x="605" y="232">
    <properties>
     <property name="actor" value="ralsei"/>
-    <property name="sprite" value="sit-couch"/>
+    <property name="sprite" value="sit_couch"/>
     <property name="text1" value="[voice:default]* (He looks deep in thought.)"/>
    </properties>
    <point/>

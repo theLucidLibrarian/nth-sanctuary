@@ -1222,7 +1222,8 @@ return {
             ["actor"] = "organik",
             ["cond"] = "Game:getFlag(\"unlock_travel\")",
             ["sprite"] = "c",
-            ["text1"] = "* (This one won't budge either.)"
+            ["text1_1"] = "* (It looks like they're in a heated debate...)",
+            ["text2_1"] = "* Progression Locking? What are you on about? I was just simply resting on the walkway!"
           }
         },
         {
@@ -1241,7 +1242,8 @@ return {
             ["actor"] = "organik",
             ["cond"] = "Game:getFlag(\"unlock_travel\")",
             ["sprite"] = "br",
-            ["text1"] = "* (They don't look like they'll be moving any time soon.)"
+            ["text1_1"] = "* (It looks like they're in a heated debate...)",
+            ["text2_1"] = "* Progression Blocking? What are you on about? The proper term is \"Progression Locking\"!"
           }
         }
       }

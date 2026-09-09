@@ -1,13 +1,13 @@
 local ShardDoorDisplay, super = Class(Object)
 
-function ShardDoorDisplay:init(text)
+function ShardDoorDisplay:init(text, hidden)
     super.init(self)
 	self:setOrigin(0.5,1)
     self.debug_select = true
 
 	self.height = 40
 
-    self.text = ProphecyText(text, 0, 0)
+    self.text = ProphecyText(hidden and "?" or text, 0, 0)
     self.text.debug_select = false
     self:addChild(self.text)
 	local text_width = self.text.font:getWidth(text)

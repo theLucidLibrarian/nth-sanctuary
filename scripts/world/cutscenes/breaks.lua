@@ -45,10 +45,10 @@ return {
         cutscene:wait(1)
         k.layer = 0.8
         k:setSprite("battle/defeat")
-        k:setPosition(652, 273)
+        k:setPosition(692, 275)
 
-        s:setPosition(705, 305)
-        s:setSprite("sit-couch")
+        s:setPosition(745, 300)
+        s:setSprite("sit_couch")
 
         j:setPosition(350, 320)
         j:setSprite("sit")
@@ -56,7 +56,7 @@ return {
         r:setSprite("walk_unhappy")
         r:setFacing("down")
         r:setPosition(430, 295)
-        Game.world.camera:setPosition(525, 340)
+        Game.world.camera:setPosition(560, 340)
         cutscene:wait(cutscene:fadeIn(1))
         Game.world.music:stop()
         Game.world.music:play()

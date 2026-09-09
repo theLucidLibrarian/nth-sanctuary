@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 25,
-  nextobjectid = 156,
+  nextobjectid = 157,
   properties = {
     ["border"] = "church_d",
     ["music"] = "fourth_church",
@@ -36,7 +36,7 @@ return {
     },
     {
       name = "ExtraClimbingTiles",
-      firstgid = 890,
+      firstgid = 891,
       filename = "../../../tilesets/ExtraClimbingTiles.tsx"
     }
   },
@@ -1289,20 +1289,6 @@ return {
           properties = {}
         },
         {
-          id = 21,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 560,
-          y = 1000,
-          width = 40,
-          height = 80,
-          rotation = 0,
-          opacity = 1,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 22,
           name = "",
           type = "",
@@ -1317,7 +1303,8 @@ return {
           polygon = {
             { x = 0, y = 0 },
             { x = 120, y = -120 },
-            { x = 0, y = -120 }
+            { x = 120, y = -160 },
+            { x = 0, y = -160 }
           },
           properties = {}
         },
@@ -1415,9 +1402,9 @@ return {
           name = "",
           type = "",
           shape = "rectangle",
-          x = 600,
+          x = 680,
           y = 920,
-          width = 200,
+          width = 120,
           height = 40,
           rotation = 0,
           opacity = 1,
@@ -1447,6 +1434,20 @@ return {
           y = 840,
           width = 40,
           height = 120,
+          rotation = 0,
+          opacity = 1,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 156,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 600,
+          y = 960,
+          width = 80,
+          height = 80,
           rotation = 0,
           opacity = 1,
           visible = true,
